@@ -2,10 +2,11 @@ import { MarcaCarro } from "./MarcaCarro";
 
 
 export class Seguro{
+    nomeProprietario: string;
     marcaCarro: MarcaCarro; 
     modeloCarro: string;
     placaCarro: string;
     nomePropietario: string;
-    sobrenomePropietario: string;
+    sobrenomeProprietario: string;
     dataNascimentoProprietario: string;
 }
