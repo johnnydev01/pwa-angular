@@ -24,7 +24,7 @@ export class CadastroSeguroComponent implements OnInit {
   enviarNotificacao(){return this.seguro}
 
   cadastrar(){
-    this.seguroService.cadastrar(this.seguro);
+    this.seguroService.salvar(this.seguro);
   }
 
 
