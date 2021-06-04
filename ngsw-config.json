@@ -29,6 +29,7 @@
     {
       "name": "car-api",
       "urls": [
+        "http://localhost:9000/*",
         "http://www.carqueryapi.com/api/0.3/"
       ],
       "cacheConfig": {

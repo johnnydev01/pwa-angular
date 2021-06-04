@@ -22,9 +22,10 @@ export class CadastroSeguroComponent implements OnInit {
   }
 
   enviarNotificacao(){return this.seguro}
-  adicionar(){}
 
   cadastrar(){
     this.seguroService.cadastrar(this.seguro);
   }
+
+
 }

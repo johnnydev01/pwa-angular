@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { Seguro } from '../components/models/seguro';
 
 @Injectable({
@@ -19,5 +20,9 @@ export class SeguroService {
           console.log("Erro ao cadastrar seguro");
         }
       })
+  }
+
+  listar(): Observable<Seguro[]>{
+    return this.http.get<Seguro[]>(this.API_SEGUROS)
   }
 }
