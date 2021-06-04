@@ -24,6 +24,7 @@ export class CadastroSeguroComponent implements OnInit {
   enviarNotificacao(){return this.seguro}
 
   cadastrar(){
+    this.seguro.id = this.seguro.placaCarro;
     this.seguroService.salvar(this.seguro);
   }
 
