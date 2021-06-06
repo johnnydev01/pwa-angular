@@ -1,5 +1,5 @@
 import { Injectable, Injector } from '@angular/core';
-import { Seguro } from '../components/models/seguro';
+import { Seguro } from '../components/models/Seguro';
 import { BaseService } from './base.service';
 
 @Injectable({
