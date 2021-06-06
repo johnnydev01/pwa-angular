@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { SeguroService } from 'src/app/services/seguro.service';
-import { Seguro } from '../models/seguro';
+import { Seguro } from '../models/Seguro';
 
 @Component({
   selector: 'app-listar-seguros',
