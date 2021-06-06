@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { MarcaCarroService } from 'src/app/services/marca-carro.service';
 import { SeguroService } from 'src/app/services/seguro.service';
 import { MarcaCarro } from '../models/MarcaCarro';
-import { Seguro } from '../models/seguro';
+import { Seguro } from '../models/Seguro';
 @Component({
   selector: 'app-cadastro-seguro',
   templateUrl: './cadastro-seguro.component.html',
