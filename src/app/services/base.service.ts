@@ -4,9 +4,6 @@ import Dexie from 'dexie';
 import { OnlineOfflineService } from './online-offline.service';
 import { Observable } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root'
-})
 export abstract class BaseService<T extends { id: string; }> {
 
   protected db: Dexie;
